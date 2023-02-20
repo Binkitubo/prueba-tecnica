@@ -1,0 +1,92 @@
+
+.register-section {
+  margin: 4rem auto;
+  width: 100%;
+  max-width: 450px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border: 1px solid #000;
+  border-radius: 20px;
+  background-color: rgba(7, 110, 255, 0.162);
+  box-shadow: 10px 10px 10px #00000040;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.register-section a {
+  text-decoration: none;
+}
+
+.register-form input[type="text"],
+.register-form input[type="password"],
+.register-form button,
+.register-form textarea {
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.6rem;
+}
+
+.register-form label {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.register-form button {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+
+.instructions {
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}

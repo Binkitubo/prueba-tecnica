@@ -1,0 +1,17 @@
+.card {
+    width: 18rem;
+    border-radius: 30px;
+    margin: 0 1rem;
+}
+
+.card select {
+    width: 100%;
+}
+
+.select-color {
+    margin-bottom: 1rem;
+}
+
+.add-cart {
+    margin-left: 4.5rem;
+}
